@@ -1,5 +1,5 @@
 
-var connection = require("../config/connection");
+const connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
   var arr = [];
@@ -87,7 +87,5 @@ var orm = {
     });
   },
 };
-
-// Export the orm object for the model
 
 module.exports = orm;
